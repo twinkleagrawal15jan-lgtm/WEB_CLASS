@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:lightgrey;
+    background-color:pink;
 
 }
 
@@ -10,7 +10,7 @@ h1{
 }
 
 p{
-    color: rgb(128, 71, 50);
+    color: rgb(161, 66, 32);
     font-size: 20px;
-    background-color: antiquewhite;
+   
 }
