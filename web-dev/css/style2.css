@@ -1,0 +1,14 @@
+h1{
+    background-color: beige;
+    border: 2px solid black;
+   
+}
+#intro{
+    background-color: rgb(241, 152, 152);
+}
+.demo{
+    border: 3px solid rgb(5, 5, 83);
+}
+.parent{
+    background-color: rgb(243, 212, 167);
+}
