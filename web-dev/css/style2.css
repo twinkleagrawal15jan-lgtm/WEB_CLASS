@@ -1,14 +1,53 @@
+
 h1{
     background-color: beige;
     border: 2px solid black;
    
 }
+
+
+/* for id */
 #intro{
     background-color: rgb(241, 152, 152);
 }
+
+
+/* for class */
 .demo{
     border: 3px solid rgb(5, 5, 83);
 }
 .parent{
-    background-color: rgb(243, 212, 167);
+    background-color: rgb(255, 226, 182);
 }
+
+/* margin auto to put the text in center */
+.container{
+    width: 600px;
+  margin: 0 auto;  /* 0 top & bottom, auto left & right */
+}
+
+
+
+/* percentages */
+ .wrapper 
+{
+width: 400px;
+border: 2px solid rebeccapurple;
+}
+
+.box 
+{
+background-color: lightblue;
+margin: 5px 0;
+}
+
+.px   
+{ 
+width: 200px;
+ }
+.percent
+{ 
+width: 40%; 
+}
+
+/*  */
