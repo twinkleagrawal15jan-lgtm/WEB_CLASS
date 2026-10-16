@@ -1,0 +1,22 @@
+ .container {
+     display: flex;
+     background-color: pink;
+     flex-direction: row;
+     gap: 20px;
+     flex-wrap: wrap;
+   
+ }
+
+ .container div {
+     background-color: rgb(241, 241, 163);
+     margin: 10px;
+     padding: 20px;
+     font-size: 30px;
+     width: 650px;
+     
+
+
+
+
+
+ }
