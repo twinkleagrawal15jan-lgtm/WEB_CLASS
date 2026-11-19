@@ -1,0 +1,48 @@
+
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.traffic-light {
+    background-color: black;
+    width: 100px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 15px auto;
+    opacity: 0.2;
+    animation: glow 6s infinite;
+}
+
+.red {
+    background-color: red;
+    animation-delay: 0s;
+}
+
+.yellow {
+    background-color: yellow;
+    animation-delay: 2s;
+}
+
+.green {
+    background-color: lime;
+    animation-delay: 4s;
+}
+
+@keyframes glow {
+    0%, 30% {
+        opacity: 1;
+    }
+    33%, 100% {
+        opacity: 0.2;
+    }
+}
