@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+
+
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-duration: 2s;
+  text-align: center;
+  border-radius: 50%;
+border: 2px solid black;
+margin-left: 400px;
+   
+  
+}
+.div1{
+    animation-name: myanimation1;
+  
+
+}
+.div2{
+    animation-name: myanimation2;
+    animation-delay: 2s;
+
+}.div3{
+    animation-name: myanimation3;
+ animation-delay: 4s;
+}
+
+
+@keyframes myanimation1
+{
+
+  to {background-color: rgb(235, 40, 19);}
+}
+@keyframes myanimation3
+{
+
+  to {background-color: green;}
+}
+@keyframes myanimation2
+{
+
+  to {background-color: rgb(244, 244, 66);}
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<h1>Traffic light</h1>
+
+
+
+<div class="div1">Red </div>
+<br>
+<div class="div2">Yellow</div>
+<br>
+<div class="div3">Green</div>
+<br>
+
+
+
+</body>
+</html>
